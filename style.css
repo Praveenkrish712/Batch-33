@@ -1,0 +1,30 @@
+*{
+    /* background-color: gray; */
+}
+
+
+h1{
+    color: blue;
+}
+
+h2{
+    color: aqua;
+}
+
+p{
+    color: brown;
+}
+
+#One > h1,
+#One > h2,
+#One > h3,
+#One > h4,
+#One > h5,
+#One > h6,
+#One > p{
+    color: greenyellow;
+}
+
+#Two > h2{
+    color: hotpink;
+}

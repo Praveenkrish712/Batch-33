@@ -1,6 +1,6 @@
 HTML5 - Hyper Text Markup Language (<body> Content <body/>)
 
-Self closing Tags - hr, Meta, br, img, input, 
+Self closing Tags - hr, Meta, br, img, input, Link
 
 ===> To Create a Webpage
 ===> It is not a Programming Language
@@ -34,3 +34,31 @@ Self closing Tags - hr, Meta, br, img, input,
 13) Divion(div) tag and Span
     div ----> Block level Elements (Ex: Heading,p and div)
     Span ----> Inline Elements (Ex: span, a, img and media Elements)
+
+
+CSS - Cascading Style sheet
+
+===> It is used to style and design a Webpage
+===> CSS Works Together with HTML
+===> Change the text, color and background
+===> To set the image and design a layout
+===> Adding a animation and Transition
+
+
+1) Types of CSS
+i) Inline CSS
+ii) Internal CSS
+iii) External CSS
+Inline > Internal > External
+
+2) CSS Syntax
+Selector {
+    Property: Values;
+}
+
+3) Types of Selector
+i) Elements Selector - (h1) (h2) (p)
+ii) Class Selector (.) - Multiple - No of Times we can use the same class name
+iii) Id Selector (#) - Unique - Only one time we can use the same Id name
+iv) Universal Selector - (*) - Give some style, it will apply to the entire site
+v) Group Selector - Class or id Selector contain different tags, in that different tags we want to Change the same style means we can go with Group Selector
