@@ -86,4 +86,11 @@ v) Group Selector - Class or id Selector contain different tags, in that differe
 ===> Content
 ===> Padding - Around the Content is called Padding
 ===> Border - Around the Padding is called Border
-===> Margin - Around the Border is called Margin   
+===> Margin - Around the Border is called Margin  
+
+7) Position
+i) Static (Default)
+ii) Ralative - Using position:relative and to be set the limit like top, bottom, right and left 
+iii) Absolute - Absolute can search the non-static parent, once reach the non-static it will act as a same relative, otherwise it wil search one more..... there is no non-static parent means it wil directly go to the root(body) of the web site
+iv) Fixed - to be fixed to the place
+v) Sticky - Using top:0, once reach the top:0 it will act as a same fixed
