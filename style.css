@@ -86,3 +86,58 @@ h2,h4{
     /* left: 50px; */
     /* top: 0; */
 }
+
+.Three{
+    background-color: aqua;
+    display: inline-block;
+    width: 100px;
+    height: 200px;
+}
+
+.box1, .box6{
+    width: 200px;
+    height: 100px;
+    background-color: red;
+    /* flex: 1; */
+    order: 3;
+}
+
+.box2, .box7{
+    width: 200px;
+    height: 100px;
+    background-color: blue;
+    /* flex: 3; */
+    order: 1;
+}
+
+.box3, .box8{
+    width: 200px;
+    height: 100px;
+    background-color: green;
+    /* flex: 1; */
+    order: 2;
+}
+
+.box4, .box9{
+    width: 200px;
+    height: 100px;
+    background-color: yellow;
+}
+
+.box5, .box10{
+    width: 200px;
+    height: 100px;
+    background-color: hotpink;
+}
+
+.container{
+    display: flex;
+    /* flex-direction: row;
+    justify-content: start; */
+    /* height: 500px;
+    border: 2px solid black; */
+    /* align-items: start; */
+    /* gap: 100px; */
+    /* flex-wrap: wrap;
+    align-content: space-between; */
+}
