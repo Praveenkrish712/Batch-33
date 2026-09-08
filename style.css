@@ -25,10 +25,10 @@ h2{
 p{
     /* color: brown; */
     /* background-color: gray; */
-    background-image: url(./Assets/images.jpg);
+    /* background-image: url(./Assets/images.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: center; */
 }
 
 #One > h1,
@@ -140,4 +140,82 @@ h2,h4{
     /* gap: 100px; */
     /* flex-wrap: wrap;
     align-content: space-between; */
+}
+
+.para{
+    background-color: red;
+    color: white;
+    padding: 20px;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(3,minmax(200px,1fr));
+    grid-template-rows: repeat(3,1fr);
+}
+
+.item{
+    background-color: darkgreen;
+    font-size: 50px;
+    color: white;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.outerbox{
+    margin: 20px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+}
+
+.items1{
+    /* grid-column-start: 1;
+    grid-column-end: 4; */
+    grid-column: span 3;
+}
+
+.items2{
+    grid-row: span 3;
+}
+
+.actors > div{
+    border: 1px solid black;
+    font-size: 40px;
+    font-weight: 900;
+    background-color: #ebabac;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.actors{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 10vh 80vh 10vh;
+    grid-template-areas: 
+    "z z z z"
+    "sb1 m m sb2"
+    "q q q q";
+}
+
+.STR{
+    grid-area: z;
+}
+
+.Ak{
+    grid-area: sb1;
+}
+
+.Dhanush{
+    grid-area: m;
+}
+
+.Suriya{
+    grid-area: sb2;
+}
+
+.vijay{
+    grid-area: q;
 }
